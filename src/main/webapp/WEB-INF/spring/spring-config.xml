@@ -11,8 +11,7 @@
 
     <!--чтобы подключить jsp страничку-->
     <mvc:view-controller path="/" view-name="users_page"/>
-
-
+    <!--теперь с работает этот код ниже-->
     <!--будет резолвить ( т.е. решать) какие страницы откуда будет тянуть-->
     <bean id="resolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>

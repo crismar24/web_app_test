@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-    Привет от Марченко !!! Java !!!
+    Hello from Spring !!! Java !!!
 </body>
 </html>

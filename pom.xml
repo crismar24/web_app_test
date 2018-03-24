@@ -63,7 +63,7 @@
                 <version>9.2.11.v20150529</version>
 
                 <configuration>
-                    <scanIntervalSeconds>2</scanIntervalSeconds>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
                     <httpConnector>
                         <port>9999</port>
                     </httpConnector>
