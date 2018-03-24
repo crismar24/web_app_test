@@ -36,7 +36,7 @@ public class UserController {
         modelAndView.setViewName("users_check_page");
         return modelAndView;
     }
-    // когда кликаем на кнопку (action="/web_app_test/users/check") - то отправляем в метод POST
+    // когда  кликаем на кнопку (action="/web_app_test/users/check") - то отправляем в метод POST
     // POST возвращает обратно UI
     //    для UI - этот метод вызвается когда идет action /check . Метод POST  т.к. метод отдает UI- как бы POST со стороны UI если считать
     @RequestMapping(value = "/check", method = RequestMethod.POST)
