@@ -54,6 +54,7 @@
 
 
     </dependencies>
+    <!--добавляем сервер jetty в виде плагина-->
     <build>
         <plugins>
             <plugin>
