@@ -1,4 +1,4 @@
-package dao;
+package system.dao;
 
 import model.User;
 import org.springframework.stereotype.Repository;
